@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-wrap:wrap;
+    font-family:Georgia;
+    background-image: url("skeet2.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#top-text {
+    width:100vw;
+    display: flex;
+    background-color: aliceblue;
+}
+
+#top-text > a {
+    margin:auto;
+}
+
+.post {
+    background-color:rgba(255, 255, 255, 0.5);
+    padding-top:1.25%;
+    margin-top:1.25%;
+    width:20vw;
+    padding-left:1vw;
+    padding-right:1vw;
+    margin-left:1vw;
+    margin-right:1vw;
+}
+
+.user, .text {
+    font-size:16px;
+    padding: 0px;
+    margin: 0;
+}
+
+.title {
+    font-size:24px;
+    padding: 0px;
+    margin: 0;
+}  

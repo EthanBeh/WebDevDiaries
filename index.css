@@ -1,0 +1,10 @@
+body {
+    font-family: Georgia;
+    background-image: url("skeet.jpg");
+    background-size: 100%;
+}
+
+#content {
+    margin: auto;
+    text-align: center;
+}
